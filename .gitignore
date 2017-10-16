@@ -13,3 +13,10 @@ auto/
 #Ignore .pyc files
 *.pyc
 .directory
+\#*#
+.#*
+*.nav
+*.toc
+*.snm
+
+
