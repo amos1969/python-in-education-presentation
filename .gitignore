@@ -1,5 +1,5 @@
 #Ignore PDF Files
-*.pdf
+#*.pdf
 #Ignore AUX files
 *.aux
 #Ignore LOG files
