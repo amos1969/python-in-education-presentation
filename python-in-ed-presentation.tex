@@ -146,7 +146,7 @@ emphstyle={\color{self}\slshape},
 %
 }{}
 
-\title[GUIs]{Python in Education      }
+\title[Python in Ed]{Python in Education}
 \author[Dave Ames]{Dave Ames}
 \institute[CAS]{Computing At School}
 
@@ -171,10 +171,26 @@ emphstyle={\color{self}\slshape},
 }
 
 
-
-
 \section{Main part}
 
+\begin{frame}
+\frametitle{My Role(s)}
+\subsection{My Role(s)}
+\begin{itemize}
+\item Regional Coordinator and Master Teacher for the CAS Regional Centre at University of Manchester
+  \pause
+\item Regional Coordinator and Master Teacher for the CAS Regional Centre at Lancaster University
+  \pause
+\item Liaison Tutor for Maths and Computing Trainee Teachers at Knutsford Academy (attached to LJMU)
+  \pause
+\item Associate Tutor for Computing Trainees on the PGCE in Computer Science/ICT at MMU
+  \pause
+\item Consultant for the National STEM Centre in York (deliver CPD and create resources)
+  \pause
+\item eTutor for the BCS Certificate in Teaching Computer Science
+  \pause 
+\end{itemize}
+\end{frame}
 
 
 \begin{frame}
@@ -183,96 +199,35 @@ emphstyle={\color{self}\slshape},
 
 \begin{itemize}
   \pause
-\item I learnt to program in Sinclair BASIC on a 48k ZX Spectrum around 1982/3
+\item Programmed in the 80s on 48k ZX Spectrum at home and TRS80s at school both in Basic
   \pause
-\item I did a Mode 3 CSE in Computer Science in the Lower Sixth (1986)
+\item Maths Teacher
   \pause
-\item Which was done in Basic on the TRS80
+\item Part Time Degree in Computing at Bolton - mainly C++ some VB6
   \pause
-\item Did a Maths Degree (some programming but I skipped that module)
-\pause
-\item Did my teacher training 1991/92 (elements of programming in LOGO)
-\pause
-\item Started working as a Maths Teacher in January 1993
+\item Played with PyQt and Pygame around the end of my degree (early 2009)
   \pause
-\item Bought an Amiga 1200 soon after (played with a programming language called AMOS which was a variant of Basic) 
-  \pause
-\item I used that until about 1997 but didn't move on to a PC initially (PCs were about \pounds1000+)
-\pause
-\item Got a PC around 2000/2001 in the second wave of the \textbf{Computers for Teacher} Scheme
-\pause
-\item Started playing with programming languages and Linux within about 6 months of getting it
+\item Created and administered our School website in Django (2009-2013ish)
 \end{itemize}
 
 \end{frame}
 
-\begin{frame}
-\frametitle{Background Pt2}
-\subsection{Background Pt2}
-
-\begin{itemize}
-\pause
-\item Settled on C++ as lots of Applications and Games seemed to be using it
-\pause
-\item Taught myself on and off for the next few years, but got bogged down and decided I needed external help (2004)
-\pause
-\item Discovered that Bolton Uni (still Bolton Institute of Higher Ed) did a Part Time Degree and guaranteed that every
-  module would be accessible in the evenings over the duration of the course.
-\pause
-\item At some point in the previous 3-4 years I'd printed off a load of chapters from the Python documentation and
-  worked through some
-\pause
-\item Spent the next 4 1/2 years learning C++, SQL stuff, various theory modules and a bit of VB6.
-\pause
-\item At this point I was still doing very little with regards to Python.
-\end{itemize}
-\end{frame}
 
 \begin{frame}
-  \frametitle{Background Pt3}
-  \subsection{Background Pt3}
+  \frametitle{The Change to Computing - 2012}
+  \subsection{The Change to Computing - 2012}
 
   \begin{itemize}
     \pause
-  \item During the final six months of my degree I became responsible for my school's VLE and Website
+  \item NextGen Report by Ian Livingstone \url{http://www.nesta.org.uk/publications/next-gen}
     \pause
-  \item We chose Moodle for the VLE and I chose to create a Django based website for some reason
+  \item Shut Down or Restart? Report by Steve Furber and others
+    \url{https://royalsociety.org/topics-policy/projects/computing-in-schools/report/}
     \pause
-  \item Basically I'd played with Python (PyQt and Pygame I think) and wanted an excuse to use it for a project
+  \item Speech by Senior Google Official condemning ICT as ``not fit for purpose''
     \pause
-  \item The site used Django 0.8 I think and content was updated weekly until 2013, when they replaced it with
-    something related to the new VLE they bought in.
-    \pause
-  \item By this point though the curriculum had changed and my school asked me to change from teaching Maths to
-    Computing 
-  \end{itemize}
-\end{frame}
-
-\begin{frame}
-  \frametitle{The Change to Computing}
-  \subsection{The Change to Computing}
-
-  \begin{itemize}
-    \pause
-  \item From the early 90s onwards IT and ICT as a subject began to develop, initially as part of Design Technology then
-    as a discrete subject
-    \pause
-  \item By 2010 or so it had sort of crystallised into using Microsoft products to solve a project focused problem (Plan
-    a School Prom etc)
-    \pause
-  \item As an outsider looking in, it was very, very... \pause \textbf{dull!}
-    \pause
-  \item Late 2011 Ian Livingstone published the `\textbf{Next: Gen} report.
-    \pause
-  \item In early 2012 the Royal Society published the \textbf{Shutdown, Restart?} report.
-    \pause
-  \item Around the same time a senior executive at Google made a very public speech criticising ICT in this country as
-    not fit for purpose
-    \pause
-  \item Michael Gove announced the dis-application of the National Curriculum for ICT from September 2012, with a new
-    Computer Science focused curriculum to replace it from 2014.
-    \pause
-  \item Which meant in theory we could teach whatever we liked!
+  \item September 2012 - disapplication of ICT as a subject, with new ``Computing'' subject coming on stream in
+    September 2014    
   \end{itemize}
 \end{frame}
 
@@ -281,28 +236,75 @@ emphstyle={\color{self}\slshape},
   \subsection{A New Era of Computing in Schools?}
   \begin{itemize}
     \pause
-  \item Over the next few years many schools began to teach what they thought a new Computing curriculum would look
-    like
+  \item Computing at School - up to 2012 (2000ish members, 20-30 Hubs)
     \pause
-  \item Some continued with their existing ICT curricula
+  \item Launched the Network of Excellence in Teaching Computer Science in 2012 - Added Master Teachers to the mix
     \pause
-  \item Some decided they no longer needed to teach anything ICT related and killed all of their courses
+  \item Now have 28341 members, and 248 Hubs. Plus somewhere in the region of 450 Master Teachers. With 10 Regional
+    Centres in England (and CAS in the devolved nations)
     \pause
-  \item Most schools that took to Computing/Computer Science went down one of two routes:
+  \item National Curriculum for Computing at Key Stage 3 specifies that students should learn two programming languages
+    at least one of which is text based
     \pause
-    \begin{itemize}
-      \pause
-    \item They already did A Level, took whatever their language of choice was there and worked backwards
-      \pause
-    \item They didn't do any programming already and chose to do something which appeared to have lots of support
-    \end{itemize}
+  \item Anecdotally approximately 75-80\% of the schools I deal with are using Python as their main text based language
     \pause
-  \item The latter ones often found their way to Python, the earlier ones mostly focused on the .net languages with
-    Small Basic leading them into it.
+  \item Key Stage 4 (GCSE) - each of the major exam boards has a GCSE, (new versions are being examined for the first
+    time this summer)
   \end{itemize}
  
 \end{frame}
 
+\begin{frame}
+\frametitle{GCSE and Beyond}
+\subsection{GCSE and Beyond}
+\begin{itemize}
+  \item At GCSE all of the boards now have a practical programming component worth 20\% of the final grade known as NEA
+    Tasks (previously called Controlled Assessments)
+    \pause
+  \item These have issues!
+    \pause
+  \item I have some to show you after.
+    \pause
+  \item A Level also has a 20\% NEA, but these are personal projects and work much better
+    \pause
+  \item However the skills required to access the highest grades are quite high
+    \pause
+  \item Still no blanket requirement to have studied A Level Computer Science to do a degree in it, is hampering
+    adoption.   
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{What can you do?}
+\subsection{What can you do?}
+\begin{itemize}
+\item Volunteer with organisations like CodeClub and CoderDojo to work with children
+  \pause
+\item Become a STEM Ambassador
+  \pause
+\item Encourage your company to do outreach to schools and similar organisations
+  \pause
+\item Volunteer with adult coding organisations such as DjangoGirls and Code Up
+  \pause
+\item Currently trialling sessions with Hive Manchester and developers from Autotrader/Rental Cars for
+  teachers. Potential to utilise some of you to deliver similar sessions
+  \pause
+\item If you're interested email me at \url{dave.ames@computingatschool.org.uk}
+\end{itemize}
+
+\end{frame}
+
+  
+\begin{frame}
+\begin{center}
+\begin{huge}
+  \texttt{Questions?}
+\end{huge}
+\end{center}
+\normalfont
+\end{frame}
   
 
 \end{document}
